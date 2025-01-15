@@ -4,8 +4,8 @@ Here’s a list of 200 Python scripting questions that can help you practice for
 ### Basic Python Scripting
 1. Write a Python script to print "Hello, World!". - done 
 2. How do you read a file in Python? -  done 
-3. Write a script to count the number of lines in a file.
-4. How do you write to a file in Python?
+3. Write a script to count the number of lines in a file. - done
+4. How do you write to a file in Python? - 
 5. Write a script to reverse a string.
 6. How do you handle exceptions in Python?
 7. Write a script to check if a number is prime.
