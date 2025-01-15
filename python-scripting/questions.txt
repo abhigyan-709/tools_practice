@@ -15,7 +15,7 @@ Here’s a list of 200 Python scripting questions that can help you practice for
 
 ### Data Structures
 11. Write a script to create a list of even numbers from 1 to 100. - done
-12. How do you merge two dictionaries in Python? 
+12. How do you merge two dictionaries in Python? - done
 13. Write a script to find the maximum and minimum values in a list. 
 14. How do you remove duplicates from a list?
 15. Write a script to sort a list of dictionaries by a key.
