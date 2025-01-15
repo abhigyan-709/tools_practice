@@ -1,0 +1,244 @@
+
+Here’s a list of 200 Python scripting questions that can help you practice for a DevOps profile. These questions cover various topics, including scripting, automation, system administration, and working with APIs, which are essential for DevOps roles.
+
+### Basic Python Scripting
+1. Write a Python script to print "Hello, World!". - done 
+2. How do you read a file in Python? -  done 
+3. Write a script to count the number of lines in a file.
+4. How do you write to a file in Python?
+5. Write a script to reverse a string.
+6. How do you handle exceptions in Python?
+7. Write a script to check if a number is prime.
+8. How do you create a virtual environment in Python?
+9. Write a script to find the factorial of a number.
+10. How do you install a package using pip?
+
+### Data Structures
+11. Write a script to create a list of even numbers from 1 to 100.
+12. How do you merge two dictionaries in Python?
+13. Write a script to find the maximum and minimum values in a list.
+14. How do you remove duplicates from a list?
+15. Write a script to sort a list of dictionaries by a key.
+16. How do you convert a list to a set in Python?
+17. Write a script to flatten a nested list.
+18. How do you check if a key exists in a dictionary?
+19. Write a script to count the frequency of elements in a list.
+20. How do you create a tuple in Python?
+
+### Functions and Modules
+21. Write a function to calculate the Fibonacci series.
+22. How do you import a module in Python?
+23. Write a script to create a simple calculator using functions.
+24. How do you define a lambda function in Python?
+25. Write a script to find the GCD of two numbers using a function.
+26. How do you pass arguments to a function in Python?
+27. Write a script to generate a random password.
+28. How do you create a class in Python?
+29. Write a script to demonstrate inheritance in Python.
+30. How do you use the `map` function in Python?
+
+### File Handling
+31. Write a script to copy a file from one location to another.
+32. How do you delete a file in Python?
+33. Write a script to read a CSV file and print its contents.
+34. How do you write data to a CSV file in Python?
+35. Write a script to append data to an existing file.
+36. How do you check if a file exists in Python?
+37. Write a script to read a JSON file and print its contents.
+38. How do you write data to a JSON file in Python?
+39. Write a script to rename a file.
+40. How do you get the current working directory in Python?
+
+### Networking and APIs
+41. Write a script to make a GET request to a public API.
+42. How do you handle JSON data in Python?
+43. Write a script to download an image from a URL.
+44. How do you use the `requests` library in Python?
+45. Write a script to post data to a REST API.
+46. How do you handle HTTP errors in Python?
+47. Write a script to fetch and display the current weather using an API.
+48. How do you set headers in a request using the `requests` library?
+49. Write a script to authenticate with an API using OAuth.
+50. How do you parse XML data in Python?
+
+### Automation and Scripting
+51. Write a script to automate the backup of a directory.
+52. How do you schedule a Python script to run at a specific time?
+53. Write a script to monitor disk usage and send an alert if it exceeds a threshold.
+54. How do you use the `subprocess` module in Python?
+55. Write a script to automate the installation of software packages.
+56. How do you read environment variables in Python?
+57. Write a script to check the status of a service on a server.
+58. How do you send an email using Python?
+59. Write a script to clean up temporary files in a directory.
+60. How do you use cron jobs with Python scripts?
+
+### System Administration
+61. Write a script to check the system uptime.
+62. How do you get the list of running processes in Python?
+63. Write a script to find the IP address of the machine.
+64. How do you execute shell commands in Python?
+65. Write a script to monitor CPU usage.
+66. How do you get system information using Python?
+67. Write a script to check for open ports on a server.
+68. How do you use the `os` module in Python?
+69. Write a script to create a new user on a Linux system.
+70. How do you change file permissions in Python?
+
+### Testing and Debugging
+71. Write a script to test if a URL is reachable.
+72. How do you use assertions in Python?
+73. Write a script to log messages to a file.
+74. How do you handle logging in Python?
+75. Write a script to test a function using `unittest`.
+76. How do you use `pytest` for testing in Python?
+77. Write a script to measure the execution time of a function.
+78. How do you debug a Python script?
+79. Write a script to check for memory usage of a process.
+80. How do you use the `traceback` module in Python?
+
+### Advanced Topics
+81. Write a script to implement a simple web server using Python.
+82. How do you use decorators in Python?
+83. Write a script to implement a RESTful API using Flask.
+84. How do you use threading in Python?
+85. Write a script to implement a simple chat application using sockets.
+86. How do you use the `asyncio` library in Python?
+87. Write a script to scrape data from a website.
+88. How do you use regular expressions in Python?
+89. Write a script to generate a report from log files.
+90. How do you use the `multiprocessing` module in Python?
+
+### Cloud and Containerization
+91. Write a script to interact with AWS S3 using Boto3.
+92. How do you deploy a Python application to AWS Lambda?
+93. Write a script to create a Docker container using Python.
+94. How do you use the `docker` Python library?
+95. Write a script to monitor AWS EC2 instances.
+96. How do you use Terraform with Python?
+97. Write a script to automate the deployment of a web application.
+98. How do you use Kubernetes with Python?
+99. Write a script to manage cloud resources using Python.
+100. How do you use the `google-cloud` library in Python?
+
+### Security
+101. Write a script to encrypt and decrypt a message.
+102. How do you hash a password in Python?
+103. Write a script to check for vulnerabilities in a web application.
+104. How do you use the `cryptography` library in Python?
+105. Write a script to generate a self-signed SSL certificate.
+106. How do you implement basic authentication in a Flask app?
+107. Write a script to scan for open vulnerabilities using an API.
+108. How do you use environment variables for sensitive data in Python?
+109. Write a script to log failed login attempts.
+110. How do you use the `os` module to manage file permissions securely?
+
+### CI/CD and Version Control
+111. Write a script to automate Git operations (clone, commit, push).
+112. How do you use the GitPython library in Python?
+113. Write a script to trigger a Jenkins job using an API.
+114. How do you create a CI/CD pipeline using Python?
+115. Write a script to check the status of a Git repository.
+116. How do you use webhooks with GitHub in Python?
+117. Write a script to automate versioning of a project.
+118. How do you use the `pygit2` library in Python?
+119. Write a script to create a release on GitHub using the API.
+120. How do you manage dependencies in a Python project?
+
+### Monitoring and Logging
+121. Write a script to send logs to a remote server.
+122. How do you use the `logging` module in Python?
+123. Write a script to monitor system logs for specific events.
+124. How do you implement log rotation in Python?
+125. Write a script to visualize log data using Matplotlib.
+126. How do you use Prometheus with Python?
+127. Write a script to send alerts based on log data.
+128. How do you use the `watchdog` library to monitor file changes?
+129. Write a script to aggregate logs from multiple sources.
+130. How do you use the `psutil` library for monitoring system resources?
+
+### Configuration Management
+131. Write a script to read and parse a YAML configuration file.
+132. How do you use the `configparser` module in Python?
+133. Write a script to manage configuration files for applications.
+134. How do you use Ansible with Python?
+135. Write a script to validate configuration settings.
+136. How do you implement a simple configuration management tool in Python?
+137. Write a script to convert JSON configuration to YAML.
+138. How do you use the `pyyaml` library in Python?
+139. Write a script to generate configuration files dynamically.
+140. How do you use the `dotenv` library to manage environment variables?
+
+### Miscellaneous
+141. Write a script to generate a random number.
+142. How do you create a simple command-line interface in Python?
+143. Write a script to convert units (e.g., temperature, distance).
+144. How do you use the `argparse` module in Python?
+145. Write a script to create a simple to-do list application.
+146. How do you use the `sqlite3` module in Python?
+147. Write a script to fetch and display system information.
+148. How do you use the `time` module for delays in Python?
+149. Write a script to implement a simple game (e.g., guessing game).
+150. How do you use the `random` module in Python?
+
+### DevOps Tools and Integration
+151. Write a script to integrate with Slack for notifications.
+152. How do you use the `boto3` library to manage AWS resources?
+153. Write a script to automate the deployment of a Docker container.
+154. How do you use the `fabric` library for remote execution?
+155. Write a script to interact with a MySQL database using Python.
+156. How do you use the `psycopg2` library for PostgreSQL?
+157. Write a script to automate the creation of a virtual machine.
+158. How do you use the `requests` library to interact with a REST API?
+159. Write a script to monitor application performance metrics.
+160. How do you use the `flask` library to create a web application?
+
+### Performance and Optimization
+161. Write a script to profile the performance of a function.
+162. How do you optimize a Python script for speed?
+163. Write a script to cache results of expensive function calls.
+164. How do you use the `cProfile` module in Python?
+165. Write a script to implement a simple rate limiter.
+166. How do you use the `timeit` module for benchmarking?
+167. Write a script to analyze memory usage of a Python application.
+168. How do you use the `memory_profiler` library?
+169. Write a script to implement a simple load balancer.
+170. How do you use the `numpy` library for performance optimization?
+
+### Best Practices and Code Quality
+171. Write a script to enforce PEP 8 style guidelines.
+172. How do you use `black` for code formatting in Python?
+173. Write a script to check for code complexity using `radon`.
+174. How do you use `mypy` for type checking in Python?
+175. Write a script to automate code reviews.
+176. How do you use `flake8` for linting in Python?
+177. Write a script to generate documentation from docstrings.
+178. How do you use `sphinx` for documentation generation?
+179. Write a script to implement version control best practices.
+180. How do you use `pre-commit` hooks in Python projects?
+
+### Real-World Scenarios
+181. Write a script to automate the deployment of a web application to a server.
+182. How do you implement a CI/CD pipeline using GitHub Actions?
+183. Write a script to monitor server health and send alerts.
+184. How do you use the `selenium` library for browser automation?
+185. Write a script to automate database backups.
+186. How do you use the `pytest` library for testing a web application?
+187. Write a script to scrape data from a website and store it in a database.
+188. How do you implement a simple API gateway using Python?
+189. Write a script to automate the provisioning of cloud resources.
+190. How do you use the `flask` library to create a RESTful API?
+
+### Final Challenges
+191. Write a script to implement a simple chat server using sockets.
+192. How do you use the `asyncio` library to handle asynchronous tasks?
+193. Write a script to create a simple web scraper with error handling.
+194. How do you implement a simple machine learning model in Python?
+195. Write a script to automate the testing of a web application.
+196. How do you use the `pandas` library for data analysis?
+197. Write a script to visualize data using Matplotlib or Seaborn.
+198. How do you implement a simple recommendation system in Python?
+199. Write a script to automate the deployment of a microservices architecture.
+200. How do you use the `flask` library to create a simple web application with user authentication?
+
+These questions should provide a comprehensive set of topics to practice your Python scripting skills in preparation for a DevOps role. Good luck!

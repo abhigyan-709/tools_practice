@@ -1,0 +1,10 @@
+{
+    "first_name": "Abhigyan",
+    "last_name": "Kumar",
+    "city": "Muzaffarpur",
+    "username": "abhigyan709",
+    "email": "abhigyan709@gmail.com",
+    "password": "$2b$12$PusJnjlNWHT/6LGv931XQenSJ3KT8iZ8Mq1BaMwGaOyDV4OBlIr8.",
+    "role": "admin",
+    "is_active": true
+  }
