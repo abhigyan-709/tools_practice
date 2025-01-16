@@ -23,6 +23,7 @@ EC2 (Elastic Compute Cloud):
 20. What is elastic IP?
 
 ECR (Elastic Container Registry):
+
 21. What is Amazon ECR?
 22. Explain ECR repository
 23. What is image scanning in ECR?
