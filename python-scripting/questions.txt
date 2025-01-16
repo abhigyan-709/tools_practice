@@ -10,14 +10,14 @@ Here’s a list of 200 Python scripting questions that can help you practice for
 6. How do you handle exceptions in Python? - done
 7. Write a script to check if a number is prime. - done
 8. How do you create a virtual environment in Python? - done
-9. Write a script to find the factorial of a number. - 
+9. Write a script to find the factorial of a number. - done 
 10. How do you install a package using pip? - done
 
 ### Data Structures
 11. Write a script to create a list of even numbers from 1 to 100. - done
 12. How do you merge two dictionaries in Python? - done
-13. Write a script to find the maximum and minimum values in a list. 
-14. How do you remove duplicates from a list?
+13. Write a script to find the maximum and minimum values in a list. - done
+14. How do you remove duplicates from a list? - done
 15. Write a script to sort a list of dictionaries by a key.
 16. How do you convert a list to a set in Python?
 17. Write a script to flatten a nested list.
