@@ -30,8 +30,8 @@ Here’s a list of 200 Python scripting questions that can help you practice for
 22. How do you import a module in Python? - done 
 23. Write a script to create a simple calculator using functions. - done
 24. How do you define a lambda function in Python?
-25. Write a script to find the GCD of two numbers using a function. - 
-26. How do you pass arguments to a function in Python? - 
+25. Write a script to find the GCD of two numbers using a function. - done
+26. How do you pass arguments to a function in Python? - done
 27. Write a script to generate a random password. 
 28. How do you create a class in Python?
 29. Write a script to demonstrate inheritance in Python.

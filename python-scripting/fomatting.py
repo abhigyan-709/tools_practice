@@ -18,3 +18,4 @@ if Path(script).is_file():
     print(f"Formatted {script} using Black.")
 else:
     print(f"The file {script} does not exist.")
+
