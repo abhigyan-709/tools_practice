@@ -30,9 +30,9 @@ Here’s a list of 200 Python scripting questions that can help you practice for
 22. How do you import a module in Python? - done 
 23. Write a script to create a simple calculator using functions. - done
 24. How do you define a lambda function in Python?
-25. Write a script to find the GCD of two numbers using a function.
-26. How do you pass arguments to a function in Python?
-27. Write a script to generate a random password.
+25. Write a script to find the GCD of two numbers using a function. - 
+26. How do you pass arguments to a function in Python? - 
+27. Write a script to generate a random password. 
 28. How do you create a class in Python?
 29. Write a script to demonstrate inheritance in Python.
 30. How do you use the `map` function in Python?
@@ -40,7 +40,7 @@ Here’s a list of 200 Python scripting questions that can help you practice for
 ### File Handling
 31. Write a script to copy a file from one location to another.
 32. How do you delete a file in Python?
-33. Write a script to read a CSV file and print its contents.
+33. Write a script to read a CSV file and print its contents. - done
 34. How do you write data to a CSV file in Python?
 35. Write a script to append data to an existing file.
 36. How do you check if a file exists in Python?
@@ -206,8 +206,8 @@ Here’s a list of 200 Python scripting questions that can help you practice for
 170. How do you use the `numpy` library for performance optimization?
 
 ### Best Practices and Code Quality
-171. Write a script to enforce PEP 8 style guidelines.
-172. How do you use `black` for code formatting in Python?
+171. Write a script to enforce PEP 8 style guidelines. - done
+172. How do you use `black` for code formatting in Python? - done
 173. Write a script to check for code complexity using `radon`.
 174. How do you use `mypy` for type checking in Python?
 175. Write a script to automate code reviews.
