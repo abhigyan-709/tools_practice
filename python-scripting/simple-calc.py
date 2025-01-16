@@ -27,33 +27,70 @@ def subtract():
     print(a - b)
 
 def multiply():
-    pass
-def divide():
-    pass
-def percentage():
-    pass
-def square_root():
-    pass
-def power():
-    pass
+    numbers = int(input("How many numbers to multiply: "))
+    result = 1
+    for _ in range(numbers):
+        num = int(input("Enter the number: "))
+        result *= num
+    print(f"Result: {result}")
 
+def divide():
+    a = int(input("Value of a: "))
+    b = int(input("Value of b: "))
+    if b == 0:
+        print("Division by zero is not allowed.")
+    else:
+        print(f"Result: {a / b}")
+
+def percentage():
+    a = float(input("Enter the total: "))
+    b = float(input("Enter the value: "))
+    print(f"Result: {(b / a) * 100}%")
+
+def square_root():
+    a = float(input("Enter the number: "))
+    print(f"Result: {math.sqrt(a)}")
+
+def power():
+    a = int(input("Base: "))
+    b = int(input("Exponent: "))
+    print(f"Result: {a ** b}")
 
 
 def main():
-    for key in options:
-        print(f"{key} - {options[key]}")
+    while True:
+        for key in options:
+            print(f"{key} - {options[key]}")
 
-    try:
-        option = int(input("Choose the option to perform calculation: "))
-        print(f"You have chosen {option} to {options[option]}")
-    except ValueError:
-        print("Please type correct input")
+        try:
+            option = int(input("Choose the option to perform calculation (press 0 to exit): "))
+        except ValueError:
+            print("Please type correct input")
+            continue
 
-    if option == 1:
-        addition()
+        if option == 0:
+            print("Exiting the calculator, good bye.")
+            break
 
-    elif option == 2:
-        subtract()
+        if option in options:
+            print(f"You have chosen to {options[option]}")
+
+            if option == 1:
+                addition()
+            elif option == 2:
+                subtract()
+            elif option == 3:
+                multiply()
+            elif option == 4:
+                divide()
+            elif option == 5:
+                percentage()
+            elif option == 6:
+                square_root()
+            elif option == 7:
+                power()
+        else:
+            print("invalid input, please choose correct option.")
 
 if __name__ == "__main__":
     main()
