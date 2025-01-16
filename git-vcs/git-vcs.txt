@@ -1,0 +1,124 @@
+Here are 100 Git and Version Control System (VCS) interview questions ranging from basic to advanced, suitable for candidates with 4 years of experience:
+
+Basic Level Questions:
+
+1. What is Version Control System (VCS)?
+2. What are the types of VCS?
+3. What is Git?
+4. What is the difference between Git and SVN?
+5. What is a repository in Git?
+6. What is the difference between local and remote repository?
+7. What is a commit in Git?
+8. What is the basic Git workflow?
+9. What are the three states of Git?
+10. How do you initialize a Git repository?
+11. What is git clone?
+12. What is git push?
+13. What is git pull?
+14. What is git fetch?
+15. What's the difference between git pull and git fetch?
+16. What is git status?
+17. What is .gitignore file?
+18. How do you create a new branch in Git?
+19. What is git checkout?
+20. What is the difference between git merge and git rebase?
+
+Intermediate Level Questions:
+
+21. What is a detached HEAD state?
+22. What is git stash?
+23. How do you resolve merge conflicts in Git?
+24. What is git cherry-pick?
+25. What is git reset?
+26. What's the difference between git reset --soft, --hard, and --mixed?
+27. What is git revert?
+28. What's the difference between git reset and git revert?
+29. What is git remote?
+30. How do you remove a file from git without removing it from your file system?
+31. What is git reflog?
+32. What is git blame?
+33. What are Git hooks?
+34. What is git bisect?
+35. What is git squash?
+36. What is the purpose of git config?
+37. What is git tag and what are the different types of tags?
+38. How do you delete a branch locally and remotely?
+39. What is the purpose of git clean?
+40. What is git archive?
+
+Advanced Level Questions:
+
+41. Explain the Git branching strategies you've used?
+42. What is GitFlow workflow?
+43. What is Trunk-Based Development?
+44. How does Git handle large binary files?
+45. What is Git LFS?
+46. How do you handle security in Git?
+47. What is git submodule?
+48. How do you modify a commit message after push?
+49. What is git rebase -i?
+50. How do you recover a deleted branch?
+51. What is git worktree?
+52. How do you handle merge conflicts in binary files?
+53. What is git filter-branch?
+54. How do you optimize Git repository performance?
+55. What is git gc?
+56. How do you handle Git repository corruption?
+57. What is git rerere?
+58. How do you set up Git hooks for team collaboration?
+59. What is git bundle?
+60. How do you implement CI/CD with Git?
+
+Practical Scenario Questions:
+
+61. How would you revert multiple commits that have been pushed to remote?
+62. How do you maintain different configurations for different environments?
+63. How would you clean up local and remote tracking branches?
+64. How do you handle merge conflicts in package-lock.json?
+65. How would you implement feature toggles with Git?
+66. How do you manage large monorepo with Git?
+67. How do you handle database schema changes with Git?
+68. How would you implement Git workflow for microservices architecture?
+69. How do you handle sensitive data accidentally committed to Git?
+70. How would you migrate from SVN to Git?
+
+Best Practices and Experience Questions:
+
+71. What Git branching strategy do you prefer and why?
+72. How do you ensure code quality in Git workflow?
+73. How do you handle code reviews in Git?
+74. What are your preferred Git tools and why?
+75. How do you handle versioning in your projects?
+76. How do you maintain clean Git history?
+77. What are your strategies for writing good commit messages?
+78. How do you handle hotfixes in production?
+79. How do you manage dependencies with Git?
+80. How do you handle Git in Agile development?
+
+Troubleshooting and Debug Questions:
+
+81. How do you debug Git issues?
+82. How do you recover from a bad merge?
+83. How do you fix a broken Git repository?
+84. How do you handle large Git repositories?
+85. How do you troubleshoot Git performance issues?
+86. How do you handle Git conflicts in automated merges?
+87. How do you recover from a git reset --hard?
+88. How do you fix wrong commit author information?
+89. How do you handle Git hooks failures?
+90. How do you debug Git submodule issues?
+
+Advanced Concepts and Integration:
+
+91. How do you integrate Git with Jenkins?
+92. How do you implement Git-based deployment strategies?
+93. How do you handle Git in containerized environments?
+94. How do you implement Git-based rollback strategies?
+95. How do you handle Git in distributed teams?
+96. How do you implement Git-based feature flags?
+97. How do you handle Git in compliance-heavy environments?
+98. How do you implement Git-based release management?
+99. How do you handle Git in cloud-native applications?
+100. How do you implement Git-based configuration management?
+
+These questions cover a wide range of Git and VCS concepts, from basic commands to advanced workflows and real-world scenarios. For a 4-year experienced developer, they should be able to answer most of these questions and demonstrate practical experience with many of these concepts.

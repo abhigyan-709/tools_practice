@@ -18,11 +18,11 @@ Here’s a list of 200 Python scripting questions that can help you practice for
 12. How do you merge two dictionaries in Python? - done
 13. Write a script to find the maximum and minimum values in a list. - done
 14. How do you remove duplicates from a list? - done
-15. Write a script to sort a list of dictionaries by a key.
+15. Write a script to sort a list of dictionaries by a key. - done
 16. How do you convert a list to a set in Python? done
 17. Write a script to flatten a nested list. - done
-18. How do you check if a key exists in a dictionary?
-19. Write a script to count the frequency of elements in a list.
+18. How do you check if a key exists in a dictionary? - done
+19. Write a script to count the frequency of elements in a list. - 
 20. How do you create a tuple in Python? - done
 
 ### Functions and Modules

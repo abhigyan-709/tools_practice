@@ -10,3 +10,13 @@ if "name" in my_dict:
 
 else:
     raise ValueError("Specified key not found")
+
+
+my_dict2 = {
+    "name" : "abhigyan",
+    "id" : 709,
+}
+
+if 'name' in my_dict2.keys():
+    print("Specified key exists in the dictionary.")
+
