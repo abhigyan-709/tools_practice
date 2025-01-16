@@ -351,3 +351,191 @@ Migration:
 298. Cost assessment
 299. Migration planning
 300. Post-migration optimization
+
+
+Here are 100 questions focused on AWS Security & IAM Policy:
+
+IAM Basics:
+1. What is AWS IAM?
+2. Explain the principle of least privilege
+3. What are IAM identities?
+4. Difference between IAM users and roles
+5. What is an IAM group?
+6. How does IAM root user differ from IAM users?
+7. What is an IAM policy?
+8. Explain policy evaluation logic
+9. What is policy versioning?
+10. What are policy variables?
+
+Policy Types:
+11. What are identity-based policies?
+12. What are resource-based policies?
+13. Explain AWS managed policies
+14. What are customer managed policies?
+15. What are inline policies?
+16. When to use inline vs managed policies?
+17. What are permission boundaries?
+18. What are SCPs (Service Control Policies)?
+19. What are session policies?
+20. Explain policy inheritance
+
+Policy Structure:
+21. What are the elements of an IAM policy?
+22. Explain the Effect element
+23. What is the Action element?
+24. How to specify Resource in policy?
+25. What is the Condition element?
+26. Explain policy Principal
+27. What is NotPrincipal?
+28. How to use wildcards in policies?
+29. What are policy variables?
+30. Explain Version in policy document
+
+Access Management:
+31. How to grant temporary access?
+32. What is cross-account access?
+33. How to delegate permissions?
+34. What is role assumption?
+35. Explain trust relationships
+36. How to revoke access?
+37. What is access analyzer?
+38. How to review permissions?
+39. What is access advisor?
+40. How to troubleshoot access issues?
+
+Security Best Practices:
+41. MFA best practices
+42. Password policy requirements
+43. Key rotation policies
+44. Access key management
+45. Root user security
+46. Credential management
+47. Audit logging best practices
+48. Security monitoring
+49. Incident response
+50. Compliance requirements
+
+Advanced IAM Concepts:
+51. What is federation?
+52. Explain SAML integration
+53. What is AWS SSO?
+54. How does role chaining work?
+55. What are service-linked roles?
+56. External ID purpose
+57. Cross-region access
+58. Multi-factor authentication
+59. Session duration limits
+60. Permission boundaries vs SCPs
+
+Policy Examples:
+61. Write S3 bucket access policy
+62. Create EC2 instance policy
+63. Design DynamoDB access policy
+64. Lambda execution policy
+65. Cross-account role policy
+66. VPC management policy
+67. CloudWatch logs access
+68. KMS key usage policy
+69. API Gateway access policy
+70. ECS task execution policy
+
+Security Features:
+71. AWS Organizations security
+72. CloudTrail integration
+73. GuardDuty features
+74. AWS Shield protection
+75. WAF configuration
+76. Macie data security
+77. Security Hub integration
+78. Inspector vulnerability assessment
+79. Detective security analytics
+80. Config security rules
+
+Compliance:
+81. SOC compliance requirements
+82. PCI DSS compliance
+83. HIPAA compliance
+84. GDPR requirements
+85. ISO certification
+86. FedRAMP compliance
+87. Industry-specific regulations
+88. Compliance reporting
+89. Audit requirements
+90. Compliance monitoring
+
+Troubleshooting:
+91. Policy evaluation issues
+92. Access denied troubleshooting
+93. Role assumption problems
+94. Federation issues
+95. Permission boundary conflicts
+96. SCP troubleshooting
+97. Cross-account access issues
+98. MFA problems
+99. Policy size limitations
+100. Policy version conflicts
+
+Key Areas to Focus:
+
+Policy Writing:
+```json
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "s3:GetObject",
+                "s3:PutObject"
+            ],
+            "Resource": "arn:aws:s3:::mybucket/*"
+        }
+    ]
+}
+```
+
+Security Considerations:
+- Principle of least privilege
+- Regular access reviews
+- Key rotation
+- Monitoring and logging
+- Incident response
+- Compliance requirements
+
+Best Practices:
+- Use managed policies
+- Implement MFA
+- Regular security audits
+- Monitor API activity
+- Document policies
+- Regular reviews
+
+Common Issues:
+- Policy size limits
+- Permission conflicts
+- Access evaluation
+- Cross-account setup
+- Federation configuration
+- Role assumption
+
+Important Concepts:
+- Policy evaluation logic
+- Permission boundaries
+- Trust relationships
+- Policy inheritance
+- Access control
+- Security monitoring
+
+Remember:
+1. Always follow least privilege principle
+2. Regularly review and audit permissions
+3. Document all policy changes
+4. Monitor security events
+5. Maintain compliance requirements
+6. Implement security best practices
+7. Use policy validation tools
+8. Keep policies up to date
+9. Regular security training
+10. Incident response planning
+
+These questions cover comprehensive aspects of AWS Security and IAM Policy management, from basic concepts to advanced implementations and troubleshooting scenarios.
