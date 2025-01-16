@@ -1,14 +1,15 @@
 import math
 
 options = {
-    1 : "Add",
-    2 : "Subtract",
-    3 : "Multiply",
-    4 : "Divide",
-    5 : "Percentage",
-    6 : "Square Root",
-    7 : "Power"
+    1: "Add",
+    2: "Subtract",
+    3: "Multiply",
+    4: "Divide",
+    5: "Percentage",
+    6: "Square Root",
+    7: "Power",
 }
+
 
 def addition():
     addition_number = int(input("How many numbers to add: "))
@@ -20,11 +21,13 @@ def addition():
 
     print(sum(add_list))
 
+
 def subtract():
     a = int(input("Value of a: "))
     b = int(input("Value of b: "))
 
     print(a - b)
+
 
 def multiply():
     numbers = int(input("How many numbers to multiply: "))
@@ -34,6 +37,7 @@ def multiply():
         result *= num
     print(f"Result: {result}")
 
+
 def divide():
     a = int(input("Value of a: "))
     b = int(input("Value of b: "))
@@ -42,14 +46,17 @@ def divide():
     else:
         print(f"Result: {a / b}")
 
+
 def percentage():
     a = float(input("Enter the total: "))
     b = float(input("Enter the value: "))
     print(f"Result: {(b / a) * 100}%")
 
+
 def square_root():
     a = float(input("Enter the number: "))
     print(f"Result: {math.sqrt(a)}")
+
 
 def power():
     a = int(input("Base: "))
@@ -63,7 +70,9 @@ def main():
             print(f"{key} - {options[key]}")
 
         try:
-            option = int(input("Choose the option to perform calculation (press 0 to exit): "))
+            option = int(
+                input("Choose the option to perform calculation (press 0 to exit): ")
+            )
         except ValueError:
             print("Please type correct input")
             continue
@@ -91,6 +100,7 @@ def main():
                 power()
         else:
             print("invalid input, please choose correct option.")
+
 
 if __name__ == "__main__":
     main()
