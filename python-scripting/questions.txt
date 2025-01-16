@@ -19,15 +19,15 @@ Here’s a list of 200 Python scripting questions that can help you practice for
 13. Write a script to find the maximum and minimum values in a list. - done
 14. How do you remove duplicates from a list? - done
 15. Write a script to sort a list of dictionaries by a key.
-16. How do you convert a list to a set in Python?
-17. Write a script to flatten a nested list.
+16. How do you convert a list to a set in Python? done
+17. Write a script to flatten a nested list. - done
 18. How do you check if a key exists in a dictionary?
 19. Write a script to count the frequency of elements in a list.
-20. How do you create a tuple in Python?
+20. How do you create a tuple in Python? - done
 
 ### Functions and Modules
-21. Write a function to calculate the Fibonacci series.
-22. How do you import a module in Python?
+21. Write a function to calculate the Fibonacci series. - done
+22. How do you import a module in Python? - done 
 23. Write a script to create a simple calculator using functions.
 24. How do you define a lambda function in Python?
 25. Write a script to find the GCD of two numbers using a function.
@@ -170,7 +170,7 @@ Here’s a list of 200 Python scripting questions that can help you practice for
 140. How do you use the `dotenv` library to manage environment variables?
 
 ### Miscellaneous
-141. Write a script to generate a random number.
+141. Write a script to generate a random number. done 
 142. How do you create a simple command-line interface in Python?
 143. Write a script to convert units (e.g., temperature, distance).
 144. How do you use the `argparse` module in Python?
@@ -179,7 +179,7 @@ Here’s a list of 200 Python scripting questions that can help you practice for
 147. Write a script to fetch and display system information.
 148. How do you use the `time` module for delays in Python?
 149. Write a script to implement a simple game (e.g., guessing game).
-150. How do you use the `random` module in Python?
+150. How do you use the `random` module in Python? done 
 
 ### DevOps Tools and Integration
 151. Write a script to integrate with Slack for notifications.
