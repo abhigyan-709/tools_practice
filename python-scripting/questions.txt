@@ -8,7 +8,7 @@ Here’s a list of 200 Python scripting questions that can help you practice for
 4. How do you write to a file in Python? - done
 5. Write a script to reverse a string. - done
 6. How do you handle exceptions in Python? - done
-7. Write a script to check if a number is prime. - 
+7. Write a script to check if a number is prime. - done
 8. How do you create a virtual environment in Python? - done
 9. Write a script to find the factorial of a number. - 
 10. How do you install a package using pip? - done
