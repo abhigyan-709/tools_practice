@@ -33,18 +33,18 @@ Here’s a list of 200 Python scripting questions that can help you practice for
 25. Write a script to find the GCD of two numbers using a function. - done
 26. How do you pass arguments to a function in Python? - done
 27. Write a script to generate a random password. 
-28. How do you create a class in Python?
-29. Write a script to demonstrate inheritance in Python.
+28. How do you create a class in Python? - done
+29. Write a script to demonstrate inheritance in Python. - done
 30. How do you use the `map` function in Python?
 
 ### File Handling
 31. Write a script to copy a file from one location to another.
-32. How do you delete a file in Python?
+32. How do you delete a file in Python? 
 33. Write a script to read a CSV file and print its contents. - done
 34. How do you write data to a CSV file in Python?
-35. Write a script to append data to an existing file.
+35. Write a script to append data to an existing file. - done (append mode)
 36. How do you check if a file exists in Python?
-37. Write a script to read a JSON file and print its contents.
+37. Write a script to read a JSON file and print its contents. - done
 38. How do you write data to a JSON file in Python?
 39. Write a script to rename a file.
 40. How do you get the current working directory in Python?
