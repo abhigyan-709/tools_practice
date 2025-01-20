@@ -1,6 +1,8 @@
 import math
+from colorama import Fore, Style, init
 
 options = {
+    0: "Exit",
     1: "Add",
     2: "Subtract",
     3: "Multiply",
@@ -12,14 +14,14 @@ options = {
 
 
 def addition():
-    addition_number = int(input("How many numbers to add: "))
+    addition_number = int(input(Fore.CYAN + "How many numbers to add: "))
     add_list = []
 
     for i in range(addition_number):
-        number = int(input("Enter the number : "))
+        number = int(input("Fore.CYAN + Enter the number : "))
         add_list.append(number)
 
-    print(sum(add_list))
+    print(f"Addition of the numbers {add_list} is {sum(add_list)}")
 
 
 def subtract():
@@ -67,14 +69,14 @@ def power():
 def main():
     while True:
         for key in options:
-            print(f"{key} - {options[key]}")
+            print(Fore.YELLOW + f"{key} - {options[key]}")
 
         try:
             option = int(
-                input("Choose the option to perform calculation (press 0 to exit): ")
+                input(Fore.CYAN + "Choose the option to perform calculation (press 0 to exit): ")
             )
         except ValueError:
-            print("Please type correct input")
+            print(Fore.RED + "Please type correct input")
             continue
 
         if option == 0:
