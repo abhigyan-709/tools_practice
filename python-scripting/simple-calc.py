@@ -1,6 +1,9 @@
 import math
 from colorama import Fore, Style, init
 
+# Initialize colorama
+init(autoreset=True)
+
 options = {
     0: "Exit",
     1: "Add",
@@ -18,52 +21,52 @@ def addition():
     add_list = []
 
     for i in range(addition_number):
-        number = int(input("Fore.CYAN + Enter the number : "))
+        number = int(input(Fore.CYAN + "Enter the number: "))
         add_list.append(number)
 
-    print(f"Addition of the numbers {add_list} is {sum(add_list)}")
+    print(Fore.GREEN + f"Addition of the numbers {add_list} is {sum(add_list)}")
 
 
 def subtract():
-    a = int(input("Value of a: "))
-    b = int(input("Value of b: "))
+    a = int(input(Fore.CYAN + "Value of a: "))
+    b = int(input(Fore.CYAN + "Value of b: "))
 
-    print(a - b)
+    print(Fore.GREEN + f"Result: {a - b}")
 
 
 def multiply():
-    numbers = int(input("How many numbers to multiply: "))
+    numbers = int(input(Fore.CYAN + "How many numbers to multiply: "))
     result = 1
     for _ in range(numbers):
-        num = int(input("Enter the number: "))
+        num = int(input(Fore.CYAN + "Enter the number: "))
         result *= num
-    print(f"Result: {result}")
+    print(Fore.GREEN + f"Result: {result}")
 
 
 def divide():
-    a = int(input("Value of a: "))
-    b = int(input("Value of b: "))
+    a = int(input(Fore.CYAN + "Value of a: "))
+    b = int(input(Fore.CYAN + "Value of b: "))
     if b == 0:
-        print("Division by zero is not allowed.")
+        print(Fore.RED + "Division by zero is not allowed.")
     else:
-        print(f"Result: {a / b}")
+        print(Fore.GREEN + f"Result: {a / b}")
 
 
 def percentage():
-    a = float(input("Enter the total: "))
-    b = float(input("Enter the value: "))
-    print(f"Result: {(b / a) * 100}%")
+    a = float(input(Fore.CYAN + "Enter the total: "))
+    b = float(input(Fore.CYAN + "Enter the value: "))
+    print(Fore.GREEN + f"Result: {(b / a) * 100}%")
 
 
 def square_root():
-    a = float(input("Enter the number: "))
-    print(f"Result: {math.sqrt(a)}")
+    a = float(input(Fore.CYAN + "Enter the number: "))
+    print(Fore.GREEN + f"Result: {math.sqrt(a)}")
 
 
 def power():
-    a = int(input("Base: "))
-    b = int(input("Exponent: "))
-    print(f"Result: {a ** b}")
+    a = int(input(Fore.CYAN + "Base: "))
+    b = int(input(Fore.CYAN + "Exponent: "))
+    print(Fore.GREEN + f"Result: {a ** b}")
 
 
 def main():
@@ -80,11 +83,11 @@ def main():
             continue
 
         if option == 0:
-            print("Exiting the calculator, good bye.")
+            print(Fore.MAGENTA + "Exiting the calculator, good bye.")
             break
 
         if option in options:
-            print(f"You have chosen to {options[option]}")
+            print(Fore.BLUE + f"You have chosen to {options[option]}")
 
             if option == 1:
                 addition()
@@ -101,7 +104,7 @@ def main():
             elif option == 7:
                 power()
         else:
-            print("invalid input, please choose correct option.")
+            print(Fore.RED + "Invalid input, please choose correct option.")
 
 
 if __name__ == "__main__":
